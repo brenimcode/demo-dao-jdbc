@@ -34,6 +34,11 @@ public class Program {
 		Seller newSeller = new Seller(null, "Greg", "Greg@docris.com", new Date(), 4000.0, dep);
 		sl.insert(newSeller);
 		System.out.println(newSeller.getId());
+		System.out.println("\n=== TESTE 5: seller Update ===");
+		seller = sl.findById(1);
+		seller.setName("Leleu");
+		sl.update(seller);
+		System.out.println("Update success");
 		
 	}
 
