@@ -20,6 +20,13 @@ public class Program {
 		for(Seller s : list) {
 			System.out.println(s);
 		}
+		
+		System.out.println("\n=== TESTE 3: seller findAll ===");
+		list = sl.findAll();
+		for(Seller s : list) {
+			System.out.println(s);
+		}
+		
 	}
 
 }
