@@ -40,6 +40,11 @@ public class Program {
 		sl.update(seller);
 		System.out.println("Update success");
 		
+		System.out.println("\n=== TESTE 6: seller Delete ===");
+		sl.deleteById(2);
+		System.out.println("Delete success");
+	
+		
 	}
 
 }
